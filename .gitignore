@@ -1,0 +1,8 @@
+# Ignore data
+data/
+datasets/
+
+# Ignore model checkpoints
+*.pth
+*.h5
+models/
