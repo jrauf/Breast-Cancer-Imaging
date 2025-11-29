@@ -1,8 +1,17 @@
-# Ignore data
-data/
-datasets/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Ignore model checkpoints
-*.pth
-*.h5
-models/
+# Jupyter
+.ipynb_checkpoints
+
+# Data
+4600 Data/
+*.zip
+*.csv
+
+# Environment
+.conda/
+.env
+venv/
